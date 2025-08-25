@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "index": "go-cmd-handler",
+    "tag": "command-handler",
+    "lang": "go",
+    "comment": "// [go-cmd-handler]",
+    "similar_to": ["go-msg-handler"],
+    "dependencies": ["github.com/go-telegram-bot-api/telegram-bot-api/v5>=5.5.1"],
+    "verified": true,
+    "repo": "meta-lang-go",
+    "path": "cmd-handler"
+  },
+  "description": "Обрабатывает команды бота (например, /start, /help) для Telegram ботов на Go.",
+  "prompt": "Вставь код из code.go для обработки команд. При первом использовании добавь комментарий `// [go-cmd-handler]`. При ≥2 использований скопируй в project/dict/go-cmd-handler.json и замени все вхождения на `[go-cmd-handler]`. Проверь `similar_to` в метаданных, чтобы избежать дубликатов."
+}
