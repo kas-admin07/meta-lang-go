@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "index": "go-shortlink-api",
+    "tag": "url-shortener",
+    "lang": "go",
+    "comment": "// [go-shortlink-api]",
+    "similar_to": [],
+    "dependencies": ["github.com/teris-io/shortid>=0.0.0"],
+    "verified": true,
+    "repo": "meta-lang-go",
+    "path": "shortlink-api"
+  },
+  "description": "Integrates with URL shortening APIs (e.g., is.gd) for Go bots.",
+  "prompt": "Insert code from code.go for URL shortening API integration. For first use, include comment `// [go-shortlink-api]`. For ≥2 uses, copy to project/dict/go-shortlink-api.json and replace all instances with `[go-shortlink-api]`. Check `similar_to` in metadata to avoid duplicates."
+}
