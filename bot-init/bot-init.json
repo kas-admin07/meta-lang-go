@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "index": "go-bot-init",
+    "tag": "bot-initializer",
+    "lang": "go",
+    "comment": "// [go-bot-init]",
+    "similar_to": [],
+    "dependencies": ["github.com/go-telegram-bot-api/telegram-bot-api/v5>=5.5.1"],
+    "verified": true,
+    "repo": "meta-lang-go",
+    "path": "bot-init"
+  },
+  "description": "Initializes a Telegram bot with basic configuration for Go applications.",
+  "prompt": "Insert code from code.go for bot initialization. For first use, include comment `// [go-bot-init]`. For ≥2 uses, copy to project/dict/go-bot-init.json and replace all instances with `[go-bot-init]`. Check `similar_to` in metadata to avoid duplicates."
+}
