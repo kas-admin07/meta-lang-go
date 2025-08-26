@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "index": "go-msg-handler",
+    "tag": "message-handler",
+    "lang": "go",
+    "comment": "// [go-msg-handler]",
+    "similar_to": ["go-cmd-handler"],
+    "dependencies": ["github.com/go-telegram-bot-api/telegram-bot-api/v5>=5.5.1"],
+    "verified": true,
+    "repo": "meta-lang-go",
+    "path": "msg-handler"
+  },
+  "description": "Handles incoming messages (e.g., URL parsing) for Telegram bots in Go.",
+  "prompt": "Insert code from code.go for message handling. For first use, include comment `// [go-msg-handler]`. For ≥2 uses, copy to project/dict/go-msg-handler.json and replace all instances with `[go-msg-handler]`. Check `similar_to` in metadata to avoid duplicates."
+}
