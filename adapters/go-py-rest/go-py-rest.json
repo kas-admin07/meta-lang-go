@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "index": "go-py-rest",
+    "tag": "cross-language-adapter",
+    "lang": "go",
+    "comment": "// [go-py-rest]",
+    "similar_to": [],
+    "dependencies": ["net/http"],
+    "verified": true,
+    "repo": "meta-lang-go",
+    "path": "adapters/go-py-rest"
+  },
+  "description": "REST adapter for calling Python services from Go applications.",
+  "prompt": "Insert code from code.go for REST API integration. For first use, include comment `// [go-py-rest]`. For ≥2 uses, copy to project/dict/go-py-rest.json and replace all instances with `[go-py-rest]`. Check `similar_to` in metadata to avoid duplicates."
+}
