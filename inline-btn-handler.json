@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "index": "go-inline-btn-handler",
+    "tag": "inline-button-handler",
+    "lang": "go",
+    "comment": "// [go-inline-btn-handler]",
+    "similar_to": ["py-inline-btn-handler", "js-inline-btn-handler"],
+    "dependencies": ["github.com/go-telegram-bot-api/telegram-bot-api/v5>=5.5.1"],
+    "verified": true,
+    "repo": "meta-lang-go",
+    "path": "inline-btn-handler"
+  },
+  "description": "Handles inline button callbacks (callback_query) in Telegram bots using go-telegram-bot-api.",
+  "prompt": "Insert code from code.go for inline button callback handling in go-telegram-bot-api. For first use, include comment `// [go-inline-btn-handler]`. For ≥2 uses, copy to project/dict/go-inline-btn-handler.json and replace all instances with `[go-inline-btn-handler]`."
+}
